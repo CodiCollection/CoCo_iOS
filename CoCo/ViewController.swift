@@ -17,4 +17,10 @@ class ViewController: UIViewController {
             fatalError("This view needs a persistent container.")
         }
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let nextVC = segue.destination as? NextViewController {
+            nextVC.container = container
+        }
+    }
 }
