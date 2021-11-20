@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		CF0BDB8E273A4D560070BD91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0BDB8D273A4D560070BD91 /* ViewController.swift */; };
-		CF0BDB90273A55460070BD91 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0BDB8F273A55460070BD91 /* SceneDelegate.swift */; };
 		CF2C867D26A08064006A51EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2C867C26A08064006A51EC /* AppDelegate.swift */; };
 		CF2C868126A08064006A51EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2C868026A08064006A51EC /* ContentView.swift */; };
 		CF2C868326A08065006A51EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF2C868226A08065006A51EC /* Assets.xcassets */; };
@@ -47,7 +46,6 @@
 
 /* Begin PBXFileReference section */
 		CF0BDB8D273A4D560070BD91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CF0BDB8F273A55460070BD91 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CF2C867926A08064006A51EC /* CoCo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoCo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF2C867C26A08064006A51EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF2C868026A08064006A51EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -124,7 +122,6 @@
 				CF60D4B8272D700E00A9A6F5 /* Model.xcdatamodeld */,
 				CF40201426D0C6E6007B5874 /* Closet */,
 				CF2C867C26A08064006A51EC /* AppDelegate.swift */,
-				CF0BDB8F273A55460070BD91 /* SceneDelegate.swift */,
 				CF2C868026A08064006A51EC /* ContentView.swift */,
 				CFA68C4826C98CF8002CB9AC /* Favorite.swift */,
 				CF40200C26D0B9DC007B5874 /* Frame.swift */,
@@ -316,7 +313,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFA68C4926C98CF8002CB9AC /* Favorite.swift in Sources */,
-				CF0BDB90273A55460070BD91 /* SceneDelegate.swift in Sources */,
 				CF40201126D0BCF6007B5874 /* Closet.swift in Sources */,
 				CF40200F26D0BCEC007B5874 /* Calender.swift in Sources */,
 				CF770BEE26E3E0D50017684D /* TabBar.swift in Sources */,
@@ -501,6 +497,7 @@
 				DEVELOPMENT_TEAM = M9336G3XQZ;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = CoCo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -522,6 +519,7 @@
 				DEVELOPMENT_TEAM = M9336G3XQZ;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = CoCo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
